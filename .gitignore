@@ -208,5 +208,11 @@ Temporary Items
 **/.vscode/
 **/.settings/
 
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
 # End of https://www.gitignore.io/api/java,macos,android,androidstudio
 **markdown-navigator.xml
+
