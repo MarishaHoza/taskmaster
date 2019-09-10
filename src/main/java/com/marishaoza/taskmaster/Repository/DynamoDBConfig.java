@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@EnableDynamoDBRepositories(basePackages = "com.codefellows.People")
+@EnableDynamoDBRepositories(basePackages = "com.marishaoza.taskmaster")
 public class DynamoDBConfig {
 
     @Value("${amazon.dynamodb.endpoint}")
